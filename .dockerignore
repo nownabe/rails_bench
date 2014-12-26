@@ -1,0 +1,5 @@
+.git
+.bundle
+vendor/bundle
+log/*
+tmp/*/*
