@@ -1,4 +1,4 @@
-FROM nownabe/ruby:2.2.0-nginx
+FROM nownabe/ruby:2.1.5-nginx
 MAINTAINER nownabe
 
 # Install Percona
