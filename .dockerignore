@@ -2,7 +2,4 @@
 .bundle
 vendor/bundle
 log/*
-tmp/cache/*
-tmp/pids/*
-tmp/sessions/*
-tmp/sockets/*
+tmp

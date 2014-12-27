@@ -21,6 +21,7 @@ RUN bundle install --without=develop,test
 
 COPY . /usr/src/app
 COPY nginx.conf /etc/nginx/conf.d/app.conf
+RUN mkdir -p tmp/{pids,sockets}
 
 EXPOSE 80
 CMD ["/usr/src/app/bootstrap.sh"]
